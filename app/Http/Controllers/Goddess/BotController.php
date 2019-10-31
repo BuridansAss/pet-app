@@ -12,7 +12,5 @@ class BotController extends Controller
     public function createBot($name)
     {
         Bot::createNewBot($name);
-
-        return 'ok';
     }
 }
